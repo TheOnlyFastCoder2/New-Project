@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --c_dark900: #232227;
+  --c_dark800: #302F34;
+  --c_light900: #C1DEE7D9;
+  --hp: 0%;
+}
+
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--c_dark900);
+}
+
+#root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1920px;
+  height: 1080px;
+  border: 20px solid rgba(194, 223, 232, 0.1);
+  box-shadow: 0 0 50px 10px rgba($color: #000000, $alpha: 0.2);
+  transform: scale(0.75);
+
+  .LowerPanel {
+    width: 100%;
+    height: 100%;
+  }
+}
